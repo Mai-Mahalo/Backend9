@@ -9,13 +9,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class DBSteps {
+public class DBSteps { // we can extends "DBUtils" if you want.
 
 	List<Map<String, String>> customerList;
 
 	@Given("I am connected to the database")
 	public void i_am_connected_to_the_database() {
-		DBUtils.getConnection();
+		DBUtils.getConnection(); // "DBUtils" is not necessary if extended
 		System.out.println("Connection is successful!!!");
 	}
 

@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 
 		plugin = { 
 				// "pretty",
-				"html:target/db-example-report.html",
+				"html:target/db-example-report.html", // This is from "target" folder.
 				"json:target/cucumber.json",
 		}
 )
