@@ -19,6 +19,9 @@ public class APIConstants {
 	public static final String REMOVE_STUDENT_FROM_CLASS_ENDPOINT = "/api/services/app/Class/RemoveStudent";
 	public static final String GET_CLASS_ROSTER_ENDPOINT = "/api/services/app/Class/GetStudents";
 	
+	// for HW Lesson 05
+	public static final String GET_ONE_CLASS_ENDPOINT = "/api/services/app/Class/Get/{Id}";
+
 	
 	public static final String GET_ALL_CLASS_ENDPOINT = "/api/services/app/Student/GetAll";
 	public static final String GET_ONE_CLASSES_ENDPOINT = "/api/services/app/Class/Get{id}";
